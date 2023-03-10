@@ -16,7 +16,7 @@ export const CheckboxContainer = styled(Checkbox.Root, {
 
   border: '2px solid $ignite900', // para já ocupar o espaço necessário e não mudar de tamanho quando a borda for adicionada
 
-  '&:focus': {
+  '&:focus, &[data-state="checked"]': {
     border: '2px solid $ignite300',
   },
 
