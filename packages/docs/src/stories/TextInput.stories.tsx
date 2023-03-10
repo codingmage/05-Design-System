@@ -1,5 +1,10 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@codingmage-ignite-ui/react'
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from '@codingmage-ignite-ds/react'
 
 export default {
   title: 'Form/Text Input',

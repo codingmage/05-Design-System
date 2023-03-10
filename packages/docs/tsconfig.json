@@ -1,4 +1,4 @@
 {  
-  "extends": "@codingmage-ignite-ui/ts-config/react.json",
+  "extends": "@codingmage-ignite-ds/ts-config/react.json",
   "include": ["src"]
 }

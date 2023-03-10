@@ -1,4 +1,4 @@
 {  
-  "extends": "@codingmage-ignite-ui/ts-config/base.json",
+  "extends": "@codingmage-ignite-ds/ts-config/base.json",
   "include": ["src"]
 }

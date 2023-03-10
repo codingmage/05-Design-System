@@ -1,6 +1,6 @@
 {
-  "name": "@codingmage-ignite-ui/react",
-  "version": "2.0.0",
+  "name": "@codingmage-ignite-ds/react",
+  "version": "2.1.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@codingmage-ignite-ui/eslint-config": "*",
-    "@codingmage-ignite-ui/tokens": "*",
-    "@codingmage-ignite-ui/ts-config": "*",
+    "@codingmage-ignite-ds/eslint-config": "*",
+    "@codingmage-ignite-ds/tokens": "*",
+    "@codingmage-ignite-ds/ts-config": "*",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",

@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@codingmage-ignite-ui/docs"]
+  "ignore": ["@codingmage-ignite-ds/docs"]
 }

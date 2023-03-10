@@ -21,6 +21,8 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
         readonly ignite500: "#00875F";
         readonly ignite700: "#015F43";
         readonly ignite900: "#00291D";
+        readonly test: "#fc0303";
+        readonly blue: "#34c3eb";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -229,6 +231,8 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", 
         readonly ignite500: "#00875F";
         readonly ignite700: "#015F43";
         readonly ignite900: "#00291D";
+        readonly test: "#fc0303";
+        readonly blue: "#34c3eb";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -437,6 +441,8 @@ declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h
         readonly ignite500: "#00875F";
         readonly ignite700: "#015F43";
         readonly ignite900: "#00291D";
+        readonly test: "#fc0303";
+        readonly blue: "#34c3eb";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -643,6 +649,8 @@ declare const AvatarImage: _stitches_react_types_styled_component.StyledComponen
         readonly ignite500: "#00875F";
         readonly ignite700: "#015F43";
         readonly ignite900: "#00291D";
+        readonly test: "#fc0303";
+        readonly blue: "#34c3eb";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -856,6 +864,8 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         readonly ignite500: "#00875F";
         readonly ignite700: "#015F43";
         readonly ignite900: "#00291D";
+        readonly test: "#fc0303";
+        readonly blue: "#34c3eb";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -1062,6 +1072,8 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
         readonly ignite500: "#00875F";
         readonly ignite700: "#015F43";
         readonly ignite900: "#00291D";
+        readonly test: "#fc0303";
+        readonly blue: "#34c3eb";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -1273,6 +1285,8 @@ declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"
         readonly ignite500: "#00875F";
         readonly ignite700: "#015F43";
         readonly ignite900: "#00291D";
+        readonly test: "#fc0303";
+        readonly blue: "#34c3eb";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
@@ -1478,6 +1492,8 @@ declare const CheckboxContainer: _stitches_react_types_styled_component.StyledCo
         readonly ignite500: "#00875F";
         readonly ignite700: "#015F43";
         readonly ignite900: "#00291D";
+        readonly test: "#fc0303";
+        readonly blue: "#34c3eb";
     };
     fontSizes: {
         readonly xxs: "0.625rem";
