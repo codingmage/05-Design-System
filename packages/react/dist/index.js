@@ -69,6 +69,7 @@ __export(src_exports, {
   TextArea: () => TextArea,
   TextInput: () => TextInput,
   Toast: () => Toast,
+  Tooltip: () => Tooltip2,
   config: () => config,
   createTheme: () => createTheme,
   css: () => css,
@@ -614,6 +615,51 @@ function Toast({ title, subtitle, duration }) {
   ] });
 }
 Toast.displayname = "Toast";
+
+// src/components/Tooltip/index.tsx
+var import_react_tooltip = require("@radix-ui/react-tooltip");
+
+// src/components/Tooltip/styles.ts
+var Tooltip = __toESM(require("@radix-ui/react-tooltip"));
+var Root4 = styled(Tooltip.Root, {
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center"
+});
+var EmptyTrigger = styled(Tooltip.Trigger, {
+  all: "unset"
+});
+var Content2 = styled(Tooltip.Content, {
+  display: "flex",
+  alignItems: "center",
+  padding: "$2",
+  backgroundColor: "$gray900",
+  borderRadius: "$md"
+});
+var Teste = styled("div", {
+  width: 300,
+  height: 300,
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center"
+});
+var TooltipContainer = styled("div", {
+  width: 1200,
+  height: 300,
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center"
+});
+
+// src/components/Tooltip/index.tsx
+var import_jsx_runtime6 = require("react/jsx-runtime");
+function Tooltip2({ delay, tooltipSide }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(TooltipContainer, { children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(import_react_tooltip.TooltipProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)(Root4, { delayDuration: delay, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(EmptyTrigger, { children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Button, { children: "Tooltip test" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(import_react_tooltip.TooltipPortal, { children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Content2, { sideOffset: 6, side: tooltipSide, avoidCollisions: false, children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Text, { children: " Hello there" }) }) })
+  ] }) }) });
+}
+Tooltip2.displayname = "Tooltip";
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Avatar,
@@ -626,6 +672,7 @@ Toast.displayname = "Toast";
   TextArea,
   TextInput,
   Toast,
+  Tooltip,
   config,
   createTheme,
   css,

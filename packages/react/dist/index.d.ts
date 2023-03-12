@@ -5,6 +5,7 @@ import { ComponentProps, ElementType } from 'react';
 import * as Avatar$1 from '@radix-ui/react-avatar';
 import * as Checkbox$1 from '@radix-ui/react-checkbox';
 import { ToastContainer } from 'react-toastify';
+import { TooltipProvider } from '@radix-ui/react-tooltip';
 import * as _stitches_react_types_theme from '@stitches/react/types/theme';
 import * as _stitches_react_types_css from '@stitches/react/types/css';
 import * as _stitches_react_types_stitches from '@stitches/react/types/stitches';
@@ -1706,6 +1707,15 @@ interface ToastProps extends ComponentProps<typeof ToastContainer> {
 }
 declare function Toast({ title, subtitle, duration }: ToastProps): JSX.Element;
 declare namespace Toast {
+    var displayname: string;
+}
+
+interface TooltipProps extends ComponentProps<typeof TooltipProvider> {
+    delay?: number;
+    tooltipSide?: 'bottom' | 'left' | 'right' | 'top';
+}
+declare function Tooltip({ delay, tooltipSide }: TooltipProps): JSX.Element;
+declare namespace Tooltip {
     var displayname: string;
 }
 
@@ -3421,4 +3431,4 @@ declare const config: {
     utils: {};
 };
 
-export { Avatar, AvatarProps, Box, BoxProps, Button, ButtonProps, Checkbox, CheckboxProps, Heading, HeadingProps, MultiStep, MultiStepProps, Text, TextArea, TextAreaProps, TextInput, TextInputProps, TextProps, Toast, ToastProps, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };
+export { Avatar, AvatarProps, Box, BoxProps, Button, ButtonProps, Checkbox, CheckboxProps, Heading, HeadingProps, MultiStep, MultiStepProps, Text, TextArea, TextAreaProps, TextInput, TextInputProps, TextProps, Toast, ToastProps, Tooltip, TooltipProps, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };

@@ -12,4 +12,4 @@ Storybook components created for the Ignite-UI Design System
 - [x] Avatar
 - [x] MultiStep
 - [x] Toast
-- [] Tooltip
+- [x] Tooltip

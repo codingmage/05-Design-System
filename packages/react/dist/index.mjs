@@ -564,6 +564,51 @@ function Toast({ title, subtitle, duration }) {
   ] });
 }
 Toast.displayname = "Toast";
+
+// src/components/Tooltip/index.tsx
+import { TooltipPortal, TooltipProvider } from "@radix-ui/react-tooltip";
+
+// src/components/Tooltip/styles.ts
+import * as Tooltip from "@radix-ui/react-tooltip";
+var Root4 = styled(Tooltip.Root, {
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center"
+});
+var EmptyTrigger = styled(Tooltip.Trigger, {
+  all: "unset"
+});
+var Content2 = styled(Tooltip.Content, {
+  display: "flex",
+  alignItems: "center",
+  padding: "$2",
+  backgroundColor: "$gray900",
+  borderRadius: "$md"
+});
+var Teste = styled("div", {
+  width: 300,
+  height: 300,
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center"
+});
+var TooltipContainer = styled("div", {
+  width: 1200,
+  height: 300,
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center"
+});
+
+// src/components/Tooltip/index.tsx
+import { jsx as jsx6, jsxs as jsxs5 } from "react/jsx-runtime";
+function Tooltip2({ delay, tooltipSide }) {
+  return /* @__PURE__ */ jsx6(TooltipContainer, { children: /* @__PURE__ */ jsx6(TooltipProvider, { children: /* @__PURE__ */ jsxs5(Root4, { delayDuration: delay, children: [
+    /* @__PURE__ */ jsx6(EmptyTrigger, { children: /* @__PURE__ */ jsx6(Button, { children: "Tooltip test" }) }),
+    /* @__PURE__ */ jsx6(TooltipPortal, { children: /* @__PURE__ */ jsx6(Content2, { sideOffset: 6, side: tooltipSide, avoidCollisions: false, children: /* @__PURE__ */ jsx6(Text, { children: " Hello there" }) }) })
+  ] }) }) });
+}
+Tooltip2.displayname = "Tooltip";
 export {
   Avatar2 as Avatar,
   Box,
@@ -575,6 +620,7 @@ export {
   TextArea,
   TextInput,
   Toast,
+  Tooltip2 as Tooltip,
   config,
   createTheme,
   css,
