@@ -1,0 +1,2 @@
+import{A as t}from"./index.f15d5d01.js";import"./index.adbe1ede.js";import"./iframe.af41a169.js";import"./index.1d7fd035.js";import"./jsx-runtime.a57d5d69.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/codingmage.png",alt:"Jean Fellipe"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},m=["Primary","WithFallback"];export{p as Primary,c as WithFallback,m as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.15f334cf.js.map
