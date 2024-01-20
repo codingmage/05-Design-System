@@ -1,0 +1,2 @@
+import{e as o}from"./index.f15d5d01.js";import"./index.adbe1ede.js";import"./iframe.af41a169.js";import"./index.1d7fd035.js";import"./jsx-runtime.a57d5d69.js";const a={title:"Data Display/Tooltip",component:o,args:{tooltipSide:"top"},argTypes:{tooltipSide:{options:["top","bottom","left","right"],control:{type:"inline-radio"}}}},s={args:{tooltipSide:"top"}},l=["Primary"];export{s as Primary,l as __namedExportsOrder,a as default};
+//# sourceMappingURL=Tooltip.stories.0a49a863.js.map
